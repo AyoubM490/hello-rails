@@ -1,24 +1,96 @@
-# README
+# hello-rails-back-end
+## hello-rails-Front-end 
+  [Hello rails Front-end app](https://github.com/AyoubMs/hello-react)
+> hello-rails-back-end is an Api that will generate a random greeting for you 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Additional description about the project and its features.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- RUBY
+- RUBY ON RAILS
+- React-rails
 
-* Configuration
+## Gems Used
 
-* Database creation
+- Rubocop
+- RAILS (v7)
+## How to Setup
 
-* Database initialization
+> You can simply clone or download [this repository](https://github.com/AyoubMs/hello-rails), and use your favorite browser or code editor to run this program.
 
-* How to run the test suite
+- To open this project using vs code ( for this example) or your favorite code editor, you can follow the guide below:
+  > in your cmd or command line navigate to where this project is located, then:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+cd hello-rails-back-end
+```
 
-* Deployment instructions
+> thereafter run
 
-* ...
+```bash
+code .
+```
+
+## How to Run the App through terminal
+
+- To run the application through trminal, make sure ruby and rails is installed in your computer then follow the guide below:
+  > in your cmd or command line navigate to where this project is located, then;
+
+```cmd
+cd hello-rails-back-end
+```
+
+## Install Gems
+
+
+```bash
+bundle install
+```
+
+> thereafter run the below command to start the server on localhost
+
+```bash
+rails s 
+```
+## Set up database
+> to create databases on your local machine follow the steps below :
+1. First make sure that postgresql installed on your machine
+2. make sure that postgresql server is runninng 
+3. run the following command to create database on your machine
+  ```bash
+  rake db:create
+  ```
+  ### Update schema file and database
+  - To run the migration files to update schema and databse simply run the following command :
+  ```bash
+  rails db:migrate
+  ```
+## Api endpoint
+
+**/api/v1/message**
+     - [] this endpoint will return a random message everytime 
+
+
+## Author
+
+👤 **Ayoub Chahir**
+
+- GitHub: [@AyoubMS](https://github.com/AyoubMs)
+- Twitter: [@KnowledgeUserD](https://twitter.com/KnowledgeUserD)
+- LinkedIn: [Ayoub Chahir](https://www.linkedin.com/in/ayoub-chahir/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Acknowledgments
+
+- Special thanks for [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) the Owner of the Original design
+
+## Show your support
+
+Give a ⭐️ if you like this project!
